@@ -1,0 +1,26 @@
+.btn_blue {
+  @apply bg-blue-500 rounded-xl text-white px-4 h-8 leading-loose hover:bg-blue-500/80;
+}
+
+.btn_blue:disabled {
+  @apply bg-blue-500/50 rounded-xl text-white/50 px-4 h-8;
+}
+
+.btn_black {
+  @apply mt-6 w-full rounded-lg bg-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none;
+}
+
+.btn_green {
+  @apply bg-green-500 rounded-xl text-white px-4 h-8 leading-loose hover:bg-green-500/80;
+}
+
+.btn_red {
+  @apply bg-red-500 rounded-xl text-white px-4 h-8 leading-loose hover:bg-red-500/80;
+}
+
+.btn_gray {
+  @apply bg-gray-500 rounded-xl text-white px-4 h-8 leading-loose hover:bg-gray-500/80;
+}
+.btn {
+  @apply flex gap-1  h-[48px] p-[12px_24px] rounded-[12px] text-16 font-500
+}

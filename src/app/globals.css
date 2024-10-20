@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(../utils/css/input.css);
+@import url(../utils/css/button.css);
+@import url(../utils/css/table.css);
+@import url(../utils/css/section.css);
+@import url(../utils/css/icon.css);
+@import url(../utils/css/text.css);
+@import url(../utils/css/selected.css);
+
+/* * {
+  @apply transition-all ease-linear;
+} */
+
+input {
+  @apply border w-full rounded-md placeholder-shown:border p-3 outline-none;
+}
+
+.icon_search_position {
+  @apply absolute left-3;
+  top: calc(50% - 12px);
+}
+
+img {
+  display: inline;
+}
+
+.ql-editor {
+  min-height: 100px !important;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.status_true {
+  @apply w-[130px] inline-flex items-center justify-center  rounded-full bg-[#00673633] py-1 px-3 text-semantics-succeed text-12 font-400;
+}
+
+.status_false {
+  @apply  w-[130px] inline-flex items-center justify-center  rounded-full bg-[#e66d6d33] py-1 px-3 text-semantics-error text-12 font-400;
+}
+
+.side_bar_active {
+  @apply bg-white;
+  @apply rounded-[0px_48px_48px_0px];
+}
+
+.side_bar_active svg {
+  @apply text-gray-700;
+  
+}
+.text-16-400 {
+  @apply text-16 font-400;
+}
+
+.sBtn-text , .option-text {
+  @apply  text-16 font-400 text-neutral-gray-60;
+}

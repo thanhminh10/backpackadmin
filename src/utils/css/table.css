@@ -1,0 +1,11 @@
+.paging_item {
+  @apply flex items-center justify-center px-3 h-8 leading-tight text-neutral-gray-60  rounded-lg text-16 font-400;
+}
+
+.paging_item:disabled {
+  @apply opacity-50 hover:bg-white;
+}
+
+.paging_item.active {
+  @apply bg-dark-color text-white;
+}
